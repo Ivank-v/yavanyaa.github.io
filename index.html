@@ -4,56 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <title>ECOLOGY LANDING PAGE</title>
-     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
         body {
             font-family: Roboto;
+            background-color: black;
+            color:white;
         }
-        
-   ul.menu-main {
-    margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
-   }
-   ul.menu-main li {
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
-    border: 1px solid #000; /* Рамка вокруг текста */
-    padding: 3px; /* Поля вокруг текста */
-   }
+
+        ul.menu-main {
+            margin: 0;
+            /* Обнуляем значение отступов */
+            padding: 4px;
+            /* Значение полей */
+        }
+
+        ul.menu-main li {
+            display: inline;
+            /* Отображать как строчный элемент */
+            margin-right: 5px;
+            /* Отступ слева */
+            /*            border: 1px solid #000;*/
+            /* Рамка вокруг текста */
+            /*            padding: 0px;*/
+            /* Поля вокруг текста */
+        }
+
         div.menubar {
             display: flex;
             flex-direction: row-reverse
-        
         }
-        div.companyname{
+
+        div.companyname {
             display: flex;
-            flex direction: row;
+            flex-direction: row;
+        }
+
+        .c {
+            border: 1px solid #333;
+            /* Рамка */
+            display: inline-block;
+            padding: 5px 15px;
+            /* Поля */
+            text-decoration: none;
+            /* Убираем подчёркивание */
             
         }
-  </style>
+
+        .c:hover {
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            /* Тень */
+            background: linear-gradient(to bottom, #fcfff4, #e9e9ce);
+            /* Градиент */
+/*            color: #;*/
+        }
+    </style>
 </head>
-    
+
 
 <body>
-    <div class ="big">
-    <div class="menubar">
-        <ul class="menu-main">
-          <li><a href="" class="current">Blog</a></li>
-          <li><a href="">Issues</a></li>
-          <li><a href="">Team</a></li>
-          <li><a href="">About us</a></li>
-        </ul>
-    </div>
-    
-    <div class="companyname">
-        <ul class="menu-main">
-            <li><a href="" class="companyname">Company name</a></li>
-        </ul>
-    </div>
+    <div class="big">
+        <div class="menubar">
+            <ul class="menu-main">
+                <li><a href="" class="current c">Blog</a></li>
+                <li><a href="" class="current c">Issues</a></li>
+                <li><a href="" class="current c">Team</a></li>
+                <li><a href="" class="current c">About us</a></li>
+            </ul>
         </div>
+
+        <div class="companyname">
+            <ul class="menu-main">
+                <li><a href="" class="">Company name</a></li>
+            </ul>
+        </div>
+    </div>
     <h1>ECOLOGY</h1>
     <h3>Landing Page</h3>
-</body>
-
-</html>
+</body></html>
