@@ -1,0 +1,57 @@
+ @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+ body {
+     font-family: "Press Start 2P";
+     background-color: black;
+     color: #40ff40;
+ }
+
+ ul.menu-main {
+     margin: 0;
+     /* Обнуляем значение отступов */
+     padding: 4px;
+     /* Значение полей */
+ }
+
+ ul.menu-main li {
+     display: inline;
+     /* Отображать как строчный элемент */
+     margin-right: 5px;
+     /* Отступ слева */
+     /*            border: 1px solid #000;*/
+     /* Рамка вокруг текста */
+     /*            padding: 0px;*/
+     /* Поля вокруг текста */
+ }
+
+ div.menubar {
+     display: flex;
+     flex-direction: row-reverse;
+ }
+
+ div.companyname {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .c {
+     border: 1px solid #333;
+     /* Рамка */
+     display: inline-block;
+     padding: 5px 15px;
+     /* Поля */
+     text-decoration: none;
+     /* Убираем подчёркивание */
+
+ }
+
+ .c:hover {
+     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+     /* Тень */
+     background: linear-gradient(to bottom, #fcfff4, #e9e9ce);
+     /* Градиент */
+     /*            color: #;*/
+ }
+A {
+    color: #40ff40; /* Цвет ссылок */
+   }
